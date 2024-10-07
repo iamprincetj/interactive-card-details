@@ -275,7 +275,17 @@ input[type='text']:focus {
 
   .container .content-container {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+  }
+
+  .main-container form {
+    width: 80%;
+  }
+
+  .long-input,
+  .extra-card-info {
+    margin: 1.5em 0;
   }
 
   .card-container {
@@ -284,7 +294,7 @@ input[type='text']:focus {
 
   .card {
     width: 100%;
-    height: 12rem;
+    height: 14rem;
   }
 
   .front-card {
@@ -293,11 +303,12 @@ input[type='text']:focus {
   }
 
   .front-card img {
-    width: 4.5rem;
+    width: 5rem;
   }
 
   .front-card h1 {
     font-size: 1.7rem;
+    margin-top: 3.5rem;
   }
 
   .front-card p {
@@ -309,7 +320,7 @@ input[type='text']:focus {
   }
 
   .back-card p {
-    bottom: 4.5rem;
+    bottom: 6.5rem;
   }
 
   .main-container {
