@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family: "SpaceGrotesk-Var";
-  src: url("./fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf");
+  font-family: 'SpaceGrotesk-Var';
+  src: url('./fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf');
 }
 
 :root {
@@ -17,10 +17,10 @@
 }
 
 body {
-  font-family: "SpaceGrotesk-Var";
+  font-family: 'SpaceGrotesk-Var';
   font-size: 18px;
+  font-weight: 500;
 }
-
 
 #root {
   display: flex;
@@ -44,12 +44,10 @@ body {
   z-index: -1000;
 }
 
-
 .container {
   width: 90%;
   max-width: 450px;
 }
-
 
 /* CARD */
 
@@ -90,7 +88,7 @@ body {
   color: var(--White);
   font-size: 1.3rem;
   font-weight: 400;
-  letter-spacing: 1px;
+  letter-spacing: 1.2px;
   margin: 0.5em 0;
   margin-top: 1.5em;
 }
@@ -100,6 +98,7 @@ body {
   display: flex;
   justify-content: space-between;
   font-size: 0.7rem;
+  letter-spacing: 1.1px;
   text-transform: uppercase;
 }
 
@@ -120,13 +119,13 @@ body {
 .back-card p {
   color: var(--White);
   font-size: 0.6rem;
+  letter-spacing: 1px;
   margin: 0 auto;
   text-align: end;
   padding: 0.5em 0;
   position: absolute;
   width: 85%;
 }
-
 
 /* FORM */
 
@@ -137,7 +136,7 @@ label {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+input[type='text'] {
   border: 1px solid var(--Darkgrayishviolet);
   border-radius: 0.7em;
   box-sizing: border-box;
@@ -148,8 +147,8 @@ input[type="text"] {
   width: 100%;
 }
 
-input[type="text"]:hover,
-input[type="text"]:focus {
+input[type='text']:hover,
+input[type='text']:focus {
   border-color: var(--Verydarkviolet);
 }
 
@@ -165,7 +164,6 @@ input[type="text"]:focus {
 
 #cardholder-name,
 #card-number {
-
 }
 
 .extra-card-info {
@@ -190,7 +188,6 @@ input[type="text"]:focus {
   width: 47%;
 }
 
-
 /* SUBMIT BUTTON */
 .container .submit-btn {
   background-color: var(--Verydarkviolet);
@@ -202,7 +199,6 @@ input[type="text"]:focus {
   padding: 1.1em;
   width: 100%;
 }
-
 
 /* THANK YOU */
 
@@ -231,12 +227,10 @@ input[type="text"]:focus {
   margin: 1em 0;
 }
 
-
 .error {
   color: var(--Red);
   font-size: 0.7rem;
 }
-
 
 /* FOOTER */
 
@@ -253,7 +247,6 @@ input[type="text"]:focus {
   text-decoration: none;
 }
 
-
 @media (min-width: 23.5em) {
   .front-card {
     margin-top: -3rem;
@@ -269,7 +262,6 @@ input[type="text"]:focus {
     bottom: 2.8rem;
   }
 }
-
 
 @media (min-width: 56em) {
   .main-bg {

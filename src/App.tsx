@@ -334,7 +334,11 @@ const App = () => {
         <a href='https://www.frontendmentor.io?ref=challenge' target='_blank'>
           Frontend Mentor
         </a>
-        . Coded by <a href='https://www.frontendmentor.io/profile/iamprincetj'>Justin Nwanze</a>.
+        . Coded by{' '}
+        <a href='https://www.frontendmentor.io/profile/iamprincetj'>
+          Justin Nwanze
+        </a>
+        .
       </footer>
     </main>
   );
